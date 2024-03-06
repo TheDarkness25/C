@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="Ex1.c" />
+	<category name="Ex7.c" />
+	<category name="Ex16.c" />
+	<category name="Ex20.c" />
+	<category name="Ex22.c">
+		<category name="Window">
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">962</property>
+			<property name="Bottom" type="integer">425</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+</settings>
