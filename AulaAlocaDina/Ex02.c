@@ -1,0 +1,63 @@
+﻿#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+	int *x;
+	x = malloc(sizeof(int));
+	*x = 12;
+	printf("*x: %d\n", *x);
+	int *z;
+	z = malloc(sizeof(int));
+	*z = 23;
+	printf("*z: %d\n", *z);
+	int *y;
+ 	y = x;
+	printf("y = x\n");
+  	x = z;
+	printf("x = z\n");
+  	printf("x*: %d\n", *x);
+  	printf("*y: %d\n", *y);
+  	printf("*z: %d\n", *z);
+  	*x = 33;
+  	printf("*x: %d\n", *x);
+  	printf("*y: %d\n", *y);
+  	printf("*z: %d\n", *z);
+  	z = malloc(sizeof(int));
+  	*z = 45;
+  	printf("*x: %d\n", *x);
+  	printf("*y: %d\n", *y);
+  	printf("*z: %d\n", *z);
+  	int *w;
+  	w = x;
+ 	printf("w = x\n"); 	
+	x = y;
+	printf("x = y\n");
+  	y = z;
+	printf("y = z\n");
+  	*z = 55;
+  	printf("*x: %d\n", *x);
+  	printf("*y: %d\n", *y);
+  	printf("*z: %d\n", *z);
+  	printf("*w: %d\n", *w);
+  	free(x);
+	printf("Free = x\n");
+  	x = z;
+	printf("x = z\n");
+  	free(y);
+	printf("Free = y\n");
+  	y = w;
+	printf("y = w\n");
+  	printf("*x: %d\n", *x);
+  	printf("*y: %d\n", *y);
+  	printf("*z: %d\n", *z);
+  	printf("*w: %d\n", *w);
+  	free(x);
+	printf("Free = x\n");
+  	free(y);
+	printf("Free = y\n");
+  	x = NULL;
+  	y = NULL;
+  	z = NULL;
+  	w = NULL;
+  	return 0;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="Espaço para um vet.c" />
+	<category name="Ex01.c" />
+	<category name="Ex02.c" />
+	<category name="Lista encadeada rotinas.c" />
+	<category name="PilhaAlocD.c" />
+	<category name="Lista Encadeada exs parte 1.c" />
+	<category name="Arvore.c">
+		<category name="Window">
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">1115</property>
+			<property name="Bottom" type="integer">473</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+</settings>
